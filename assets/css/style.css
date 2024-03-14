@@ -1,0 +1,351 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:'Helvetica';
+	overflow-x:hidden;
+}
+@font-face {
+  font-family:Helvetica;
+  src: url(./assets/fonts/Helvetica-Bold.ttf);
+  font-weight:700;
+}
+@font-face {
+  font-family:Helvetica;
+  src: url(./assets/fonts/Helvetica.ttf);
+  font-weight:400;
+}
+
+:root{
+	--header-black-PaisaXc:#080910;
+	--header-Pink-PaisaXC:#FF006F;
+	--Exchange-bg:#111224;
+	--buysell-tabs:#252530;
+	--buysell-num:#B7B7B7;
+	--text-white:#ffffff;
+	--text-yellow:#FA652D; 
+	--buyup-green:#44BD22; 	
+	 --text-sign:#9C9C9C;
+	 --border-text:#373D4E;
+	 --order-chart:#5D5D5D;
+	 --tabs-bg:#1E1F31;
+	 --tabs-button:#FF0034;
+	 --text-sign:#9C9C9C;	
+	--button-grey:#2B2C3E;
+}
+/* header start */
+.menu_bar{
+	background-color:var(--header-black-PaisaXc);
+}
+ #navbarScrollingDropdown{
+	 color:var(--header-Pink-PaisaXC); 
+	 } 
+.nav-tabs {
+     border-bottom: 0px !important;
+}
+.order_usdt {
+    display: block;
+    padding: 5px 10px !important;
+	color:var(--text-white) !important;
+	
+
+}
+a.nav-link.text-white {
+    font-size: 15px;
+    font-weight: 400;
+	font-family:'Helvetica';
+}
+
+a#navbarScrollingDropdown{
+    font-size: 15px;
+    font-weight: 400;
+	font-family:'Helvetica';
+}
+/* finish header */
+/* start exchange */
+.exchange{
+	background-color:var(--Exchange-bg);
+	min-height:100vh;
+	position:relative;
+	padding:0px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color:var(--buysell-tabs) !important;
+
+}
+.buysell_chart {
+	color:var(--buysell-num);
+}
+.Btc_us h6{
+	font-size:14px;
+	font-weight:400;
+	font-family:'Helvetica';	
+}
+.buy_down p{
+	font-size:12px;
+	font-weight:400;	
+}
+.buysell_npink span{
+	color:var(--text-yellow);
+	font-size:12px;
+	font-weight:400;
+}
+.buysell_nr{
+	font-size:12px;
+	font-weight:400;
+}
+.buysell_over{
+	overflow-y:scroll;
+	height:400px;
+}
+.buysell_nl{
+	font-size:12px;
+	font-weight:400;
+}
+.buysell_over::-webkit-scrollbar {
+  display: none;
+}
+.buysell_center{
+	border-top:1px solid var(--text-white);
+	border-bottom:1px solid var(--text-white);
+}
+.buy_up p{
+	color:var(--buyup-green);
+	font-weight:700;
+	font-family:'Helvetica';
+	font-size:12px;
+}
+.buysell svg{
+	color:var(--buyup-green);
+}
+.buysell_a span{
+	color:var(--buyup-green);
+	font-weight:400;
+	font-size:12px;
+	font-family:'Helvetica';	
+}
+.buysell_b span{
+	font-weight:400;
+	font-size:12px;
+	font-family:'Helvetica';	
+}
+.buysell_c span{
+	font-weight:400;
+	font-size:12px;
+	font-family:'Helvetica';	
+}
+.btc_up p{
+	color:var(--text-sign);
+	font-family:'Helvetica';
+	font-size:12px;
+	font-weight:400;
+}
+.btc_acont span{
+	color:var(--buyup-green);
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;
+}
+.btc_acont p{
+	color:var(--text-sign);
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;	
+}
+.btc_bcont p{
+	color:var(--buyup-green);
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;	
+}
+.btc_ccont p{
+	color:var(--text-yellow);
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;		
+}
+.btc_dcont p{
+	color:var(--text-sign);
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;
+}
+.chart_view{
+	min-height:480px;
+	background-color:var(--text-sign);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:70px;
+}
+table thead tr th{
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;
+	
+}
+table tbody tr td{
+	font-weight:400;
+	font-family:'Helvetica';
+	font-size:12px;
+	
+}
+.form-control {
+    background-color: var(--Exchange-bg) !important;
+	border:none !important;  
+}
+.search_imp{
+	border:1px solid var(--border-text) !important;
+	border-radius:7px;
+}
+.Order_chart{
+	
+	color:#5D5D5D !important;
+}
+.Order_chart1{
+	min-height:400px;
+}
+.order_a{
+	font-size:12px;
+	font-weight:400;
+	
+}
+.order_b{
+	font-size:12px;
+	font-weight:400;	
+}
+.order_c span{
+	color:var(--buyup-green);
+	font-size:12px;
+	font-weight:400;
+}
+.order_d span{
+		color:var(--text-yellow);
+		font-size:12px;
+		font-weight:400;
+}
+.order_e span{
+		font-size:12px;
+		font-weight:400;
+}
+.order_f span{
+		font-size:12px;
+		font-weight:400;
+}
+.market_head h6{
+	color:var(--text-sign);
+		font-size:14px;
+		font-weight:400;
+		margin-top:16px;
+	
+}
+.order_g span{
+	color:var(--buyup-green) !important;
+		font-size:12px;
+		font-weight:400;
+}
+.history_over{
+	overflow-y:scroll;
+	height:250px;
+}
+.history_over::-webkit-scrollbar {
+  display: none;
+}
+.content_tab{
+	position:absolute;
+	content:'';
+    bottom:80px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	max-width:700px;
+}
+.form_btc{
+	background-color:var(--tabs-bg) !important;
+}
+.all a{
+	padding:8px 95px;
+	text-decoration:none;
+	border:1px solid var(--border-text);
+	color:var(--text-sign) !important;
+	border-radius:5px;
+	
+}
+.form_content button{
+	border-radius:5px;
+	background-color:var(--button-grey);
+	color:var(--text-white);
+	border:none;
+	padding:3px 5px;
+}
+.btn_cont p{
+	color:var(--header-Pink-PaisaXC);
+	font-size:13px;
+	font-weight:400;
+}
+.btn_number p{
+	font-size:13px;
+	font-weight:400;
+	color:var(--text-sign);	
+}
+.order_bal p{ 
+	font-size:13px;
+	font-weight:400;
+}
+.btna1 button{
+	padding:5px 45px;
+	border-radius:5px;	
+	background-color:var(--tabs-button);
+	border:none;
+	color:var(--text-white);
+}
+.rb_button {
+	border-bottom:1px solid var(--tabs-button) !important;
+}
+.prbut input{
+	background-color:var(--tabs-bg) !important;
+	border:1px solid var(--border-text) !important;
+	border-radius:5px;	
+}
+.form-check-input:checked {
+    background-color: var(--buyup-green) !important;
+    box-shadow:none !important;
+}
+label {
+    font-size: 13px;
+    font-weight: 400;
+}
+button#pills-home-tab {
+    font-size: 12px;
+    font-weight: 400;
+}
+button#pills-profile-tab {
+    font-size: 12px;
+    font-weight: 400;
+}
+button#pills-contact-tab {
+    font-size: 12px;
+	font-weight: 400;
+}
+.order_btc{
+	background:var(--tabs-button) !important;
+}
+
+/* finish exchange */
+@media all and (min-width: 768px) and (max-width: 1024px){
+	.content_tab{
+	bottom:280px;
+}	
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+.all a{
+	padding:8px 72px;
+}
+	
+	
+	
+}
